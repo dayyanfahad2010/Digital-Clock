@@ -4,10 +4,12 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url("bg img.png");
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)) ,url("assets/images/bg-img.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: fixed;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
 }
 .main-div{
   height: 50vh;
@@ -16,10 +18,11 @@ body{
     margin: 245px 470px;
     text-align: center;
     border: 2px solid grey;
+    border-radius: 15px;
     box-shadow: 2px 2px 15px gray ;
     height: 125px;
     width: 400px;
-    padding-top: 10px;
+    padding: 10px;
 }
 .sub-main span{
     color: #fff;
@@ -32,6 +35,8 @@ body{
     padding: 10px;
     background-color: cornflowerblue;
     margin: 10px auto;
-    border-radius: 5px;
+    border-radius: 20px;
     color: #fff;
+    border: 2px solid rgb(69, 134, 255);
+    /* border-radius: 20px; */
 }
